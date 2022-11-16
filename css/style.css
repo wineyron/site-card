@@ -1,0 +1,144 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+/* Body */
+
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	background: url('../img/pattern.png') 0 0 repeat;
+}
+
+/* Card */
+
+.card {
+	width: 400px;
+	margin: 30px auto;
+	background-color: white;
+	box-shadow: 0 5px 15px #ccc;
+	border-radius: 10px;
+}
+
+/* Image__Card */
+
+.image__card {
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 50%;
+}
+
+/* Card__Title */
+
+.card__title {
+	font-size: 20px;
+	text-align: center;
+	color: #419c1b;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+
+/* Card__Text */
+
+.card__text {
+	font-size: 14px;
+	font-weight: 500;
+	padding: 0 15px 15px 15px;
+	font-weight: 500;
+}
+
+/* Card__Subtitle */
+
+.card__subtitle {
+	font-size: 18px;
+	font-weight: 550;
+	padding: 0 15px 15px 15px;
+	color: #315fc7;
+}
+
+/* Card__List */
+
+.card__list {
+	padding: 0 15px 15px 15px;
+}
+
+.card__list li:nth-child(odd) {
+	padding-bottom: 5px;
+	padding-left: 25px;
+	padding-top: 4px;
+	list-style: none;
+	background: url('../img/icons/icons8-checked-checkbox-50.png') no-repeat 0 0;
+	background-size: 20px;
+}
+
+.card__list li:nth-child(2) {
+	padding-bottom: 5px;
+	padding-left: 25px;
+	padding-top: 4px;
+	list-style: none;
+	background: url('../img/icons/icons8-multiplication-50.png') no-repeat 0 0;
+	background-size: 20px;
+}
+
+/* Card__Link */
+
+.card__link {
+	padding: 0 15px 15px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
